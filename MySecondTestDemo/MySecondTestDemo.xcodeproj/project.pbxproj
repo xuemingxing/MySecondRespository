@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA13F7EE1E098A3A00E751B0 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = CA13F7ED1E098A3A00E751B0 /* Person.m */; };
 		CA803DC01E0974350029EE7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA803DBF1E0974350029EE7A /* main.m */; };
 		CA803DC31E0974350029EE7A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA803DC21E0974350029EE7A /* AppDelegate.m */; };
 		CA803DC61E0974350029EE7A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA803DC51E0974350029EE7A /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CA13F7EC1E098A3A00E751B0 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		CA13F7ED1E098A3A00E751B0 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		CA803DBB1E0974350029EE7A /* MySecondTestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySecondTestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA803DBF1E0974350029EE7A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CA803DC11E0974350029EE7A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +108,8 @@
 				CA803DC21E0974350029EE7A /* AppDelegate.m */,
 				CA803DC41E0974350029EE7A /* ViewController.h */,
 				CA803DC51E0974350029EE7A /* ViewController.m */,
+				CA13F7EC1E098A3A00E751B0 /* Person.h */,
+				CA13F7ED1E098A3A00E751B0 /* Person.m */,
 				CA803DC71E0974350029EE7A /* Main.storyboard */,
 				CA803DCA1E0974350029EE7A /* Assets.xcassets */,
 				CA803DCC1E0974350029EE7A /* LaunchScreen.storyboard */,
@@ -275,6 +280,7 @@
 			files = (
 				CA803DC61E0974350029EE7A /* ViewController.m in Sources */,
 				CA803DC31E0974350029EE7A /* AppDelegate.m in Sources */,
+				CA13F7EE1E098A3A00E751B0 /* Person.m in Sources */,
 				CA803DC01E0974350029EE7A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -499,6 +505,7 @@
 				CA803DEA1E0974350029EE7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA803DEB1E0974350029EE7A /* Build configuration list for PBXNativeTarget "MySecondTestDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +514,7 @@
 				CA803DED1E0974350029EE7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA803DEE1E0974350029EE7A /* Build configuration list for PBXNativeTarget "MySecondTestDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +523,7 @@
 				CA803DF01E0974350029EE7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
