@@ -7,21 +7,19 @@
 //
 
 #import "ViewController.h"
+#import "Person.h"
 
 @interface ViewController ()
-
+/** person */
+@property (nonatomic,strong) Person *person;
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    self.person = [[Person alloc] init];
+    [self.person run];
 }
 
 @end
